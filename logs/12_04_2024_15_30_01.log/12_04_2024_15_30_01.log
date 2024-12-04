@@ -1,0 +1,3 @@
+[ 2024-12-04 15:30:03,651 ] 15 root - INFO - Created artifact directory at Artifacts\12_04_2024_15_30_02
+[ 2024-12-04 15:30:03,652 ] 20 root - INFO - Initiate the data ingestion
+[ 2024-12-04 15:30:34,627 ] 27 root - ERROR - An error occurred: Error occured in python script name [C:\Users\bored\Music\Network_Security\Network_Security\Components\data_ingestion.py] line number [95] error message [NetworkSecurityException.__init__() missing 2 required positional arguments: 'error_message' and 'error_details']

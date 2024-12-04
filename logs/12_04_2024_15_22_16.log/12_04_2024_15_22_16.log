@@ -1,0 +1,3 @@
+[ 2024-12-04 15:22:17,607 ] 15 root - INFO - Created artifact directory at Artifacts\12_04_2024_15_22_16
+[ 2024-12-04 15:22:17,607 ] 19 root - INFO - Initiate the data ingestion
+[ 2024-12-04 15:22:48,269 ] 26 root - ERROR - An error occurred: cannot unpack non-iterable module object
