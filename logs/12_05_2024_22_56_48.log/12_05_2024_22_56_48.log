@@ -1,0 +1,11 @@
+[ 2024-12-05 22:57:05,508 ] 1027 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2024-12-05 22:57:05,522 ] 107 dagshub - INFO - Accessing as Prahaladha-Reddy
+[ 2024-12-05 22:57:06,623 ] 1027 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/Prahaladha-Reddy/Network_Security "HTTP/1.1 200 OK"
+[ 2024-12-05 22:57:08,224 ] 1027 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2024-12-05 22:57:08,227 ] 107 dagshub - INFO - Initialized MLflow to track repo "Prahaladha-Reddy/Network_Security"
+[ 2024-12-05 22:57:08,236 ] 107 dagshub - INFO - Repository Prahaladha-Reddy/Network_Security initialized!
+[ 2024-12-05 22:57:10,042 ] 114 fastapi - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
