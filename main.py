@@ -5,7 +5,7 @@ from Network_Security.Logging.logger import logging
 from Network_Security.Entity.config_entity import *
 import sys
 from Network_Security.Components.data_transformation import DataTransformation
-
+from Network_Security.Components.model_trainer import *
 from Network_Security.Components.data_validation import DataValidation
 if __name__ == '__main__':
     try:
@@ -35,5 +35,12 @@ if __name__ == '__main__':
             data_transformation_artifact=data_transformation.initiate_data_transformation()
             print(data_transformation_artifact)
             logging.info("data Transformation completed")
+            logging.info("Model Training stared")
+            model_trainer_config=ModelTrainerConfig(trainingpipelineconfig)
+            model_trainer=ModelTrainer(model_trainer_config=model_trainer_config,data_transformation_artifact=data_transformation_artifact)
+            model_trainer_artifact=model_trainer.initiate_model_trainer()
+
+            logging.info("Model Training artifact created")
+        
     except Exception as e:
            raise NetworkSecurityException(e,sys)
