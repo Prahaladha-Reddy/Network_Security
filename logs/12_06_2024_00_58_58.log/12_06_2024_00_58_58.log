@@ -1,0 +1,6 @@
+[ 2024-12-06 00:59:06,751 ] 1027 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2024-12-06 00:59:06,776 ] 107 dagshub - INFO - Accessing as Prahaladha-Reddy
+[ 2024-12-06 00:59:08,529 ] 1027 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/Prahaladha-Reddy/Network_Security "HTTP/1.1 200 OK"
+[ 2024-12-06 00:59:10,148 ] 1027 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2024-12-06 00:59:10,152 ] 107 dagshub - INFO - Initialized MLflow to track repo "Prahaladha-Reddy/Network_Security"
+[ 2024-12-06 00:59:10,161 ] 107 dagshub - INFO - Repository Prahaladha-Reddy/Network_Security initialized!
