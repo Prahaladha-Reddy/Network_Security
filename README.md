@@ -15,70 +15,70 @@ The Network Security project is designed to provide a comprehensive solution for
 ## Project Structure
 
 Network_Security/
-├── .git/                           # Git version control directory
-├── .github/                        # GitHub Actions workflows
-│   └── workflows/                  # CI/CD pipelines
-│       └── workflow.yml            # GitHub Actions configuration file
-├── Network_Data/                   # Directory for storing network-related data files
-├── Network_Security/               # Main project directory
-│   ├── __init__.py                 # Initialization file for the package
-│   ├── Cloud/                      # Cloud integration utilities
-│   │   └── s3_syncer.py            # AWS S3 sync functionality
-│   ├── Components/                 # Core components of the ML pipeline
-│   │   ├── __init__.py             # Initialization file for components
-│   │   ├── data_ingestion.py       # Data ingestion from MongoDB
-│   │   ├── data_validation.py      # Data quality checks
-│   │   ├── data_transformation.py  # Feature engineering and preprocessing
-│   │   ├── model_trainer.py        # Model training and evaluation
-│   │   ├── inference.py            # Inference script for making predictions
-│   │   └── deployment.py           # Deployment-related utilities
-│   ├── Constants/                  # Project constants and configurations
-│   │   ├── __init__.py             # Initialization file for constants
-│   │   └── training_pipeline.py    # Training pipeline constants
-│   ├── Entity/                     # Entity classes and type definitions
-│   │   ├── __init__.py             # Initialization file for entities
-│   │   ├── config_entity.py        # Configuration entity definitions
-│   │   └── artifact_entity.py      # Artifact entity definitions
-│   ├── Exceptions_Handle/          # Custom exception handling
-│   │   ├── __init__.py             # Initialization file for exceptions
-│   │   └── exception.py            # Custom exception class
-│   ├── Logging/                    # Logging utilities and configuration
-│   │   ├── __init__.py             # Initialization file for logging
-│   │   ├── logger.py               # Logger setup and configuration
-│   ├── Pipeline/                   # Orchestration and training pipeline
-│   │   ├── __init__.py             # Initialization file for pipeline
-│   │   └── training_pipeline.py    # Training pipeline orchestration
-│   ├── Utils/                      # General utility functions
-│       ├── __init__.py             # Initialization file for utils
-│       ├── file_handler.py         # Utilities for file operations
-│       └── ml_utils.py             # ML-specific utility functions
-├── logs/                           # Directory for application logs
-│   └── example.log                 # Example log file (for demonstration purposes)
-├── Artifacts/                      # Directory for storing pipeline artifacts
-│   ├── <timestamp>/                # Timestamped directory for each pipeline run
-│   │   ├── data_ingestion/         # Data ingestion artifacts
-│   │   │   ├── feature_store/      # Feature store files
-│   │   │   └── ingested/           # Ingested data files
-│   │   ├── data_validation/        # Data validation artifacts
-│   │   │   ├── validated/          # Validated data files
-│   │   │   └── drift_report/       # Data drift reports
-│   │   ├── data_transformation/    # Data transformation artifacts
-│   │   │   ├── transformed_data/   # Transformed data files
-│   │   │   └── preprocessor.pkl    # Saved preprocessor objects
-│   │   ├── model_trainer/          # Model training artifacts
-│   │   │   └── trained_model.pkl   # Trained ML model
-│   │   └── final_model/            # Final model directory
-├── tests/                          # Unit and integration tests
-│   ├── __init__.py                 # Initialization file for tests
-│   ├── test_data_ingestion.py      # Unit tests for data ingestion
-│   ├── test_data_validation.py     # Unit tests for data validation
-│   └── test_model_trainer.py       # Unit tests for model training
-├── app.py                          # FastAPI or Flask application entry point
-├── Dockerfile                      # Dockerfile for containerizing the application
-├── requirements.txt                # Project dependencies
-├── setup.py                        # Project packaging and installation script
-├── README.md                       # Project documentation and overview
-└── push_data.py                    # Script for pushing data to MongoDB
+├── .git/                           
+├── .github/                        
+│   └── workflows/                  
+│       └── workflow.yml            
+├── Network_Data/                   
+├── Network_Security/               
+│   ├── __init__.py                 
+│   ├── Cloud/                      
+│   │   └── s3_syncer.py            
+│   ├── Components/                 
+│   │   ├── __init__.py             
+│   │   ├── data_ingestion.py       
+│   │   ├── data_validation.py      
+│   │   ├── data_transformation.py  
+│   │   ├── model_trainer.py        
+│   │   ├── inference.py            
+│   │   └── deployment.py           
+│   ├── Constants/                  
+│   │   ├── __init__.py             
+│   │   └── training_pipeline.py    
+│   ├── Entity/                     
+│   │   ├── __init__.py             
+│   │   ├── config_entity.py        
+│   │   └── artifact_entity.py      
+│   ├── Exceptions_Handle/          
+│   │   ├── __init__.py             
+│   │   └── exception.py            
+│   ├── Logging/                    
+│   │   ├── __init__.py             
+│   │   ├── logger.py               
+│   ├── Pipeline/                   
+│   │   ├── __init__.py             
+│   │   └── training_pipeline.py    
+│   ├── Utils/                      
+│       ├── __init__.py             
+│       ├── file_handler.py         
+│       └── ml_utils.py             
+├── logs/                           
+│   └── example.log                 
+├── Artifacts/                      
+│   ├── <timestamp>/                
+│   │   ├── data_ingestion/         
+│   │   │   ├── feature_store/      
+│   │   │   └── ingested/           
+│   │   ├── data_validation/        
+│   │   │   ├── validated/          
+│   │   │   └── drift_report/       
+│   │   ├── data_transformation/    
+│   │   │   ├── transformed_data/   
+│   │   │   └── preprocessor.pkl    
+│   │   ├── model_trainer/          
+│   │   │   └── trained_model.pkl   
+│   │   └── final_model/            
+├── tests/                          
+│   ├── __init__.py                 
+│   ├── test_data_ingestion.py      
+│   ├── test_data_validation.py     
+│   └── test_model_trainer.py       
+├── app.py                          
+├── Dockerfile                      
+├── requirements.txt                
+├── setup.py                        
+├── README.md                       
+└── push_data.py                    
 
 ## 🚀 Features
 
